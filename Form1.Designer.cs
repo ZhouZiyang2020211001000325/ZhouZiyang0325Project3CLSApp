@@ -68,6 +68,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabSource);
             this.tabControl1.Controls.Add(this.tabDest);
+            this.tabControl1.ImageList = this.imageList1;
             this.tabControl1.Location = new System.Drawing.Point(13, 13);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -209,8 +210,8 @@
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "1.jpg");
-            this.imageList1.Images.SetKeyName(1, "2.jpg");
+            this.imageList1.Images.SetKeyName(0, "添加文件夹.png");
+            this.imageList1.Images.SetKeyName(1, "文件夹.png");
             // 
             // btnOk
             // 
